@@ -1,4 +1,4 @@
-<?php 
+<?php
     //varr
     $base = 5;
     $height= 6;
