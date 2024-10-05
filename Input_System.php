@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> <!--Ang purpose sino is, gina automatic ya adjust ang interface based on what device your using, so kung tablet imo gamit ma automatic nisa adjust dako kung sa CP naman ma gamay-->
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Ang purpose sino is, gina automatic ya adjust ang interface based on what device your using, so kung tablet imo gamit ma automatic nisa adjust dako kung sa CP naman ma gamay-->
+
     <title>Franx mwhehehe</title>
 </head>
 <body>
