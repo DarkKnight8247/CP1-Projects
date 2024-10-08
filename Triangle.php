@@ -12,5 +12,5 @@
     echo "Base: $base <br>";
     echo "Height: $height <br>";
     echo "Area: $area <br>";
-    echo "Hypotenuse: " . round($hypotenuse, 2) . "<br>";
+    echo "Hypotenuse: " . round($hypotenuse, 2);
 ?>
