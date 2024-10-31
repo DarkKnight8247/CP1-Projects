@@ -1,4 +1,4 @@
-<form method="post">
+<form method="post"> 
     Number 1: <input type="text" name="val1" required> <br>
     Number 2: <input type="text" name="val2" required> <br>
     Operation: 
