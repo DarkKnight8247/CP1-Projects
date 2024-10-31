@@ -6,6 +6,8 @@ Value 2: <input type="text" name="val2">
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    #..-. .-. .- -. --..
+
     if (!empty($_POST["val1"]) && !empty($_POST["val2"])) {
         if (is_numeric($_POST["val1"]) && is_numeric($_POST["val2"])) {
             $val1 = $_POST["val1"];
