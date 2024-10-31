@@ -16,6 +16,7 @@
         $val1 = $_POST['val1'];
         $val2 = $_POST['val2'];
         $operator = $_POST['operator'];
+        #..-. .-. .- -. --.. 
 
         switch ($operator) {
             case 'add':
