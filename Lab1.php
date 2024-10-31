@@ -7,6 +7,7 @@
     if ($_SERVER ['REQUEST_METHOD'] == "POST" && is_numeric( $_POST ["val"])) {
             $num = $_POST["val"];
             echo "Number: $num <br>";
+            #..-. .-. .- -. --.. 
 
         if ($num % 2 == 0) {
         echo "$num is an even number";
