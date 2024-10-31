@@ -11,6 +11,7 @@
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $temp = $_POST['temp'];
     $selector = $_POST['selector'];
+    #..-. .-. .- -. --.. 
 
     switch ($selector) {
         case "f-c":
