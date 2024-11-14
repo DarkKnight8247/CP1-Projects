@@ -1,0 +1,25 @@
+<h1>Multiplication Table</h1>
+<form method="post">
+    Rows: <input type="number" name="row" required>
+    Columns: <input type="number" name="col" required>
+    <input type="submit" value="Create table">
+</form>
+<?php
+    if ($_SERVER['REQUEST_METHOD'] == "POST") {
+    $row = $_POST["row"];
+    $col = $_POST["col"];
+    #..-. .-. .- -. --.. 
+
+    echo "<table border = '1' cellpadding = '5'>";
+
+    for ($r = 1; $r <= $row; $r++) {
+        echo "<tr>";
+        for ($c = 1; $c <= $col; $c++){
+            $result = $r * $c;
+            echo "<td>$r x $c = $result</td>";
+        }   
+        echo "</tr>";
+    }
+    echo "</table>";
+}
+?>
